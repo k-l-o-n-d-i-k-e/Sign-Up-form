@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/media_E7tOXrfVkAUXoMf.jpg);
+    background-image: url(https://raw.githubusercontent.com/k-l-o-n-d-i-k-e/Sign-Up-form/main/media_E7tOXrfVkAUXoMf.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -19,7 +19,7 @@
 }
 
 .form-container{
-    background: linear-gradient(-180deg, #322019a0, #7b5853cb, #82a0adaa);
+    background: linear-gradient(-180deg, #322019bf, #7b5853cb, #82a0adaa);
     padding: 50px;
     border-radius: 20px;
     width: 27vw;
