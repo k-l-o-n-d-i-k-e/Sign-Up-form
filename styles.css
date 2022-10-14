@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/media_E7tOXrfVkAUXoMf.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'MuseumBibleRegular'; 
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #fbe0d6;
+}
+
+.form-container{
+    background: linear-gradient(-180deg, #322019a0, #7b5853cb, #82a0adaa);
+    padding: 50px;
+    border-radius: 20px;
+    width: 27vw;
+    backdrop-filter: blur(4px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.form form, label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #dfbcb5;
+    border-bottom: 4px solid #713f29b1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 9px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* input:invalid{
+    border-bottom: 4px solid #ff0000d4;
+} */
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #a0aab3;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* transition: 0.5s ease-in-out; */
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #adccc9;
+}
+
+.info-text{
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.log-in-btn, .log-in-btn a{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+
